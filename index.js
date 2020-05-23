@@ -1,4 +1,3 @@
-/*! bittorrent-tracker. MIT License. WebTorrent LLC <https://webtorrent.io/opensource> */
 const Client = require('./client')
 const Server = require('./server')
 
