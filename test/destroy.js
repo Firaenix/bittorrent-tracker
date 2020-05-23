@@ -13,8 +13,8 @@ function testNoEventsAfterDestroy (t, serverType) {
     var client = new Client({
       infoHash: fixtures.leaves.parsedTorrent.infoHash,
       announce: announceUrl,
-      peerId,
-      port,
+      peerId: peerId,
+      port: port,
       wrtc: {}
     })
 
